@@ -1,0 +1,387 @@
+body{
+    position: relative;
+    padding-bottom: 75px;
+    min-height: 100vh;
+    background-color: rgb(245, 244, 244) !important;
+}
+
+/*import fonts from google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Gugi&family=Lato:wght@300&family=Roboto&family=Sofia&display=swap');
+
+:root{
+    --light-gray: #2b3032a1;
+    --primary-color: #45ccb8;
+    --border:#2b303218;
+    --text-color:#ff686b;
+    --roboto:"Roboto",sans-serif;
+    --gugi:"Gugi",cursive;
+    --sofia:"Sofia",cursive
+}
+
+
+.navbar {
+    background-color: #faebd7;
+}
+
+.navbar-brand {
+    font-size: medium !important;
+}
+
+/* navigation button styling */
+
+#home {
+    background-color: peachpuff;
+    border-radius: 10px;
+}
+
+.nav-link {
+    padding: 15px 15px 15px 15px !important;
+}
+@media screen and (max-width: 1000px) {
+    .nav-link , .nav-item {
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+}
+
+
+.nav-link, .nav-link:hover {
+    font-weight: bold !important;
+    text-align: center;
+}
+
+.nav-link:hover {
+    background-color: palevioletred !important;
+    border-radius: 10px;
+    border-color: antiquewhite !important;
+}
+
+/* dropdown styling */
+
+.dropdown-item:hover {
+    background-color: palevioletred !important;
+    text-indent: 3px;
+}
+
+/*-- Featured-Catogories Css --*/
+
+.featured-catagories{
+    margin: 50px 0;
+    padding: 20px 0;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.featured-catagories img{
+    width: 90%;
+}
+
+.featured-catagories img:hover{
+    transform: scale(1.1);
+}
+
+/* SLider Info */
+
+.extrainfo {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+
+.fa-shopping-cart {
+    font-size: 30px !important;
+}
+
+.fa-user-circle-o {
+    font-size: 30px !important;
+}
+
+.fa-truck, .fa-thumbs-up, .support {
+    font-size: 50px !important;
+    margin-right: 15px;
+}
+
+.card1, .card2, .card3 {
+    display: flex;
+    width: 350px;
+    height: 100px;
+    background-color: white;
+    box-shadow: 2px 4px 5px grey;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.maincard {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 600px) {
+    .card1, .card2, .card3 {
+        width: 100%;
+    }
+}
+
+.newarrivals {
+    margin-top: 50px;
+}
+
+.featuredproducts {
+    margin-top: 50px;
+}
+
+.card {
+    height: auto;
+    width: 250px;
+    margin-top: 30px;
+}
+
+.card-text {
+    font-weight: bold;
+}
+
+.btn-primary {
+    width: 100%;
+    background-color: antiquewhite !important;
+}
+
+.btn:hover, .btn:active {
+    color: palevioletred !important;
+}
+
+/* Featured Product CSS*/
+
+
+.heading {
+    text-align: center;
+    font-family: serif;
+    font-weight: bold;
+    color: palevioletred;
+    margin: 25px;
+}
+
+.heading>h1 {
+    text-shadow: 2px 2px 4px grey;
+}
+
+@media screen and (max-width: 769px) {
+    .card {
+        width: 100%;
+    }
+}
+
+/* FOOTER */
+
+.footer1{
+    margin-top: 50px;
+    background-color: antiquewhite;
+    color: black;  
+    width: 100%;
+    background-color: antiquewhite;
+   
+    margin-top: 20px;
+    position: absolute;
+    bottom: 25; 
+}
+.footer1 h1{
+    font-size: 15px;
+    margin: 25px 0;
+
+}
+
+.footer1 p{
+    font-size: 12px;
+}
+
+.footer {
+    width: 100%;
+    background-color: antiquewhite;
+    height: 75px;
+    margin-top: 20px;
+    position: absolute;
+    bottom: 0;
+}
+
+.footer>div {
+    padding-top: 30px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+
+#myBtn {
+    position: sticky;
+    bottom: 0px;
+    float: right;
+    left: 0;
+    max-width: 45px;
+    width: 100%;
+    font-size: 1em;
+    border-color: palevioletred;
+    background-color: palevioletred;
+    padding: 1px !important;
+    border-radius: 1px;
+    z-index: 99999;
+
+}
+/*On Hover Color Change*/
+#myBtn:hover {
+    background-color: #7dbbf1;
+}
+
+/* ABOUT PAGE STYLING */
+
+.aboutheading1 {
+    margin-top: 25px;
+}
+
+.aboutheading1>h1 {
+    color: rgb(233, 35, 183);
+    font-size: 50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 3px grey;
+}
+
+.aboutheading1>p {
+    margin-top: 25px;
+    margin-left: 150px;
+    margin-right: 150px;
+    color: grey;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+@media screen and (max-width: 760px) {
+    img.aboutpics {
+        width: 500px;
+    }
+}
+
+/* WHY HANDCRAFTED SOAP PAGE STYLING */
+
+.why-handcrafted-soap > p {
+    margin-top: 25px;
+    margin-left: 150px;
+    margin-right: 150px;
+    color: grey;
+    text-align: left;
+    
+}
+@media (min-width: 576px) {
+    .why-handcrafted-soap > p { font-size: 1.25rem; }
+}
+@media (min-width: 768px) {
+    .why-handcrafted-soap > p { font-size: 1.5rem; }
+}
+@media (min-width: 992px) {
+    .why-handcrafted-soap > p { font-size: 1.75rem; }
+}
+@media (min-width: 1200px) {
+    .why-handcrafted-soap > p { font-size: 2rem; }
+}
+ /* Text for commercial and HANDMADE  */
+
+.text{
+    font-size: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: left;  
+}
+
+@media (min-width: 576px) {
+    .text { font-size: 1.25rem; }
+}
+@media (min-width: 768px) {
+    .text { font-size: 1.5rem; }
+}
+@media (min-width: 992px) {
+    .text { font-size: 1.75rem; }
+}
+@media (min-width: 1200px) {
+    .text { font-size: 2rem; }
+}
+
+
+/* All About Us PAGE Styling */
+
+.aboutus-text{
+    position: relative;
+    display: inline-block; /* Make the width of box same as image */
+
+}
+.aboutus-text{
+    padding-top: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+}
+.aboutus .aboutus-text{
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;        
+    text-align: center;
+    top: 25%; /* Adjust this value to move the positioned div up and down */
+    font-size: 1.6em;
+    font-family: serif;
+    background-color: gainsboro;
+    color: black;
+    width: 60%; /* Set the width of the positioned div */
+    
+}
+
+@media screen and (max-width: 1200px) {
+     .aboutus-text {
+        font-size: medium !important;
+        width: 500px !important;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .aboutus-text {
+       font-size: small !important;
+       width: 600px !important;
+   }
+}
+
+@media screen and (max-width: 600px) {
+    .aboutus-text {
+       font-size: small !important;
+       width: 600px !important;
+       padding-left: 0em;
+       padding-right: 0em;
+   }
+}
+
+/* Vegan Page Styling */
+.veganheading {
+    margin-top: 25px;
+}
+
+.veganheading>h1 {
+    color: rgb(2, 2, 2);
+    font-size: 50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 3px grey;
+}
+
+.vegan-text{
+    text-align: center;
+    font-size: 1.6em;
+    line-height: 1.7em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+}
