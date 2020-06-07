@@ -23,6 +23,7 @@ body{
     background-color: #faebd7;
 }
 
+
 .navbar-brand {
     font-size: medium !important;
 }
@@ -251,6 +252,8 @@ a {
     margin-top: 25px;
 }
 
+
+
 .aboutheading1>h1 {
     color: rgb(233, 35, 183);
     font-size: 50px;
@@ -266,6 +269,13 @@ a {
     color: grey;
     text-align: center;
     font-size: 1.5em;
+}
+
+@media screen and (max-width: 570px) {
+    .aboutheading1>p {
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 @media screen and (max-width: 760px) {
@@ -368,6 +378,17 @@ a {
        width: 600px !important;
        padding-left: 0em;
        padding-right: 0em;
+   }
+}
+
+@media screen and (max-width: 570px) {
+    .aboutus-text {
+       font-size: x-small !important;
+       width: 600px !important;
+       padding-left: 0em;
+       padding-right: 0em;
+       margin-left:  15px;
+       margin-right: 15px;
    }
 }
 
