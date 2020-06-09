@@ -68,7 +68,7 @@ body{
 /*-- Featured-Catogories Css --*/
 
 .featured-catagories{
-    margin: 50px 0px;
+    margin: 15px 0px;
     padding: 20px 0;
     transition: 2s;
     cursor: pointer;
@@ -96,6 +96,19 @@ body{
     font-size: 1.5em;
 }
 
+@media (max-width: 576px) {
+    .extrainfo { font-size: 16px; }
+}
+@media (min-width: 768px) {
+    .extrainfo { font-size: 32px; }
+}
+@media (min-width: 992px) {
+    .extrainfo { font-size: 1.75rem; }
+}
+@media (min-width: 1200px) {
+    .extrainfo { font-size: 1.75rem; }
+}
+
 .fa-shopping-cart {
     font-size: 30px !important;
 }
@@ -104,7 +117,7 @@ body{
     font-size: 30px !important;
 }
 
-.fa-truck, .fa-thumbs-up, .support {
+.fa-truck, .fa-thumbs-up, .support, .fa-headset{
     font-size: 50px !important;
     margin-right: 15px;
 }
@@ -293,6 +306,13 @@ a {
     color: grey;
     text-align: left;
     
+}
+
+@media (max-width: 576px) {
+    .why-handcrafted-soap > p {
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 @media (min-width: 576px) {
     .why-handcrafted-soap > p { font-size: 1.25rem; }
